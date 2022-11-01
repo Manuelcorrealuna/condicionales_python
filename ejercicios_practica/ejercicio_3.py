@@ -24,6 +24,18 @@ puntaje = 70
 
 nota = ""
 
+if puntaje >= 90:
+    print("A")
+elif puntaje >= 80:
+    print("B")
+elif puntaje >= 70:
+    print("C")
+elif puntaje >= 60:
+    print("D")
+else:
+    print ("F")
+
+
 # Si el puntaje es mayor igual a 90 --> nota = "A"
 # Si el puntaje es mayor igual a 80 --> nota = "B"
 # Si el puntaje es mayor igual a 70 --> nota = "C"
